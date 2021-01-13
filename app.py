@@ -9,7 +9,7 @@ app = Flask(__name__)
 LOGGER = logging.getLogger()
 LOGGER.setLevel(logging.INFO)
 
-# Test Comment to push a change
+# Test Comment to push a change - Updated IAM role perms
 
 @app.route('/<random_string>')
 def returnBackwardsString(random_string):
