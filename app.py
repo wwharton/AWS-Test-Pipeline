@@ -9,7 +9,7 @@ app = Flask(__name__)
 LOGGER = logging.getLogger()
 LOGGER.setLevel(logging.INFO)
 
-# Test Comment to push a change - Fixed Missing AWS creds
+# Test Comment to push a change - Updates Execution Role Arn path secret
 
 @app.route('/<random_string>')
 def returnBackwardsString(random_string):
